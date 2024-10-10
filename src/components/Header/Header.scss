@@ -1,0 +1,44 @@
+header {
+  width: 1920px;
+
+  h1 {
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 19px 802px 19px 802px;
+  }
+
+  .content-jordan-shoes {
+    width: 557px;
+    height: 211px;
+    position: absolute;
+    margin: 100px 0px 0px 400px;
+    font-family: "Archivo", serif;
+    font-weight: 500;
+    color: #fff;
+    z-index: 999;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+      margin-top: 40px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 1.5rem;
+      margin-top: 15px;
+    }
+  }
+
+  img {
+    background-image: url("/src/assets/images/jordan.png");
+    width: 1920px;
+    height: 400px;
+    filter: brightness(60%);
+  }
+}
