@@ -10,6 +10,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 768px) {
+      font-size: 0.8rem;
+    }
   }
 
   .content-jordan-shoes {
@@ -31,33 +35,59 @@ header {
     .logo-jordan {
       width: 38px;
       height: 35px;
+
+      @media (max-width: 768px) {
+        width: 24px;
+        height: 24px;
+      }
     }
 
     h2 {
       font-size: 1.5rem;
+
+      @media (max-width: 768px) {
+        font-size: 1.25rem;
+      }
     }
 
     h3 {
       font-size: 2rem;
       margin-top: 40px;
+
+      @media (max-width: 768px) {
+        font-size: 1.5rem;
+      }
     }
 
     p {
       font-weight: 400;
       font-size: 1.5rem;
       margin-top: 15px;
+
+      @media (max-width: 768px) {
+        font-size: 1rem;
+        line-height: 22px;
+      }
+    }
+
+    /* RESPOSIVIDADE CONTAINER CONTENT JORDAN SHOES */
+    @media (max-width: 768px) {
+      width: 328px;
+      height: 168px;
+      margin: 100px 0px 0px 50px;
     }
   }
 
-  img {
+  .imagem-jordan {
     width: 100%;
     height: 400px;
+    background-image: url("../../assets/images/jordan.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     filter: brightness(60%);
-  }
 
-  /* RESPONSIVIDADE HEADER */
-  @media (max-width: 768px) {
-    width: 100%;
-    height: 2421px;
+    @media (max-width: 768px) {
+      background-image: url("../../assets/images/jordan-mobile.png");
+    }
   }
 }

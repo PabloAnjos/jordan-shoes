@@ -19,7 +19,9 @@ export function Header() {
                             parceria entre a Nike e o jogador Michael Jordan.</p>
                     </div>
 
-                    <img src={imgJordan} alt="Imagem jogador de basquete jordan" />
+                    <div className="imagem-jordan">
+                        {/* AQUI VAI UMA IMAGEM DO JORDAN */}
+                    </div>
             </header>
         </>
     )

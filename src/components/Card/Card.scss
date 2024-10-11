@@ -12,6 +12,11 @@
     img {
       margin-top: 30px;
     }
+
+    @media (max-width: 768px) {
+      width: 319px;
+      height: 200px;
+    }
   }
 
   h1 {
@@ -32,5 +37,12 @@
     font-size: 1.25rem;
     font-weight: 500;
     margin-top: 30px;
+  }
+
+  /* RESPOSIVIDADE CARD */
+  @media (max-width: 768px) {
+    width: 319px;
+    height: 326px;
+    margin-top: 50px;
   }
 }

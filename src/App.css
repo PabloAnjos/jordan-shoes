@@ -58,8 +58,11 @@
     gap: 30px;
 
     @media (max-width: 768px) {
+      width: 319px;
+      height: 2421px;
       display: block;
       padding: 56px 0px 56px 0px;
+      margin-top: 0;
     }
   }
 
