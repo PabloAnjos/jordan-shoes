@@ -3,3 +3,69 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 1216px;
+  height: 1051px;
+  margin: auto;
+
+  .content-text {
+    width: 593px;
+    height: 127px;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+
+    h1 {
+      font-weight: 600;
+      font-size: 2rem;
+    }
+
+    p {
+      width: 600px;
+      margin: auto;
+      margin-top: 20px;
+      line-height: 2rem;
+      font-weight: 400;
+      font-size: 1.5rem;
+    }
+
+    /* RESPONSIVIDADE */
+    @media (max-width: 768px) {
+      width: 319px;
+      height: 94px;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        width: 319px;
+        height: 60px;
+        font-size: 0.8rem;
+        line-height: 19px;
+      }
+    }
+  }
+
+  .container-cards {
+    width: 1216px;
+    height: 692px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+    @media (max-width: 768px) {
+      display: block;
+      padding: 56px 0px 56px 0px;
+    }
+  }
+
+  /* RESPONSIVIDADE */
+  @media (max-width: 768px) {
+    width: 319px;
+    height: 2421px;
+  }
+}

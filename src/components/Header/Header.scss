@@ -1,12 +1,15 @@
 header {
-  width: 1920px;
+  width: 100%;
 
   h1 {
-    text-align: center;
+    width: 100%;
+    height: 64px;
     font-family: "Archivo", sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-    padding: 19px 802px 19px 802px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .content-jordan-shoes {
@@ -18,6 +21,17 @@ header {
     font-weight: 500;
     color: #fff;
     z-index: 999;
+
+    .jordan-shoes-text-and-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-jordan {
+      width: 38px;
+      height: 35px;
+    }
 
     h2 {
       font-size: 1.5rem;
@@ -36,9 +50,14 @@ header {
   }
 
   img {
-    background-image: url("/src/assets/images/jordan.png");
-    width: 1920px;
+    width: 100%;
     height: 400px;
     filter: brightness(60%);
+  }
+
+  /* RESPONSIVIDADE HEADER */
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 2421px;
   }
 }
