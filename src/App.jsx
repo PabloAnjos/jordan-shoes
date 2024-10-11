@@ -30,37 +30,37 @@ function App() {
 
                     <Card
                       image={imgJordanTropical}
-                      nomeTenis={"Air Jordan 1 Mid Dutch Green"}
+                      nomeTenis={"Air Jordan 1 High Zoom CMFT Tropical Twist"}
                       modeloTenis={"Tênis Air Jordan"}
-                      valorTenis={"R$ 1.199,99"}
+                      valorTenis={"R$ 1.049,00"}
                     />
 
                     <Card
                       image={imgJordanPurple}
-                      nomeTenis={"Air Jordan 1 Mid Dutch Green"}
+                      nomeTenis={"Air Jordan 1 Mid Dutch Purple"}
                       modeloTenis={"Tênis Air Jordan"}
-                      valorTenis={"R$ 1.199,99"}
+                      valorTenis={"R$ 1.350,00"}
                     />
 
                     <Card
                       image={imgJordanGrey}
-                      nomeTenis={"Air Jordan 1 Mid Dutch Green"}
+                      nomeTenis={'Air Jordan 1 Mid GS "Light Smoke Grey"'}
                       modeloTenis={"Tênis Air Jordan"}
-                      valorTenis={"R$ 1.199,99"}
+                      valorTenis={"R$ 1.585,00"}
                     />
 
                     <Card
                       image={imgJordanOrange}
-                      nomeTenis={"Air Jordan 1 Mid Dutch Green"}
+                      nomeTenis={"Air Jordan 1 Mid SE Bright Citrus"}
                       modeloTenis={"Tênis Air Jordan"}
-                      valorTenis={"R$ 1.199,99"}
+                      valorTenis={"R$ 949,99"}
                     />
 
                     <Card
                       image={imgJordanMid}
-                      nomeTenis={"Air Jordan 1 Mid Dutch Green"}
+                      nomeTenis={"Air Jordan 1 Mid Grey Camo"}
                       modeloTenis={"Tênis Air Jordan"}
-                      valorTenis={"R$ 1.199,99"}
+                      valorTenis={"R$ 999,99"}
                     />
               </div>
         </div>
