@@ -9,7 +9,7 @@
     <td>HTML</td>
     <td>CSS</td>
     <td>Javascript</td>
-    <td>Scss</td>
+    <td>SCSS</td>
   </tr>
   <tr>
     <td>5</td>
